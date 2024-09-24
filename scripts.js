@@ -19,6 +19,6 @@ viewBtn.addEventListener("click", () => {
         alert("Soooooory! URL's with the words archive, or theoldnet are restricted due to bugs.\nAnother reason could be that there is already a https");
     }
     else {
-        location.assign(`nostalgia.html#${Info}`);
+        location.assign(`nostalgia.html?${Info}`);
     }
 });
