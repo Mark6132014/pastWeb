@@ -5,7 +5,7 @@ let task = document.querySelector("#task");
         let times = 0;
         let getSiteLimit = 3;
         /* Variables for the Info */
-        let Info = location.hash;
+        let Info = location.search;
         let OpenWith;
         let year;
         let url;
